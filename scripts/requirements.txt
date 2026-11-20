@@ -1,0 +1,16 @@
+# Install with:  pip install -r requirements.txt
+# Versions are pinned to work with torch 2.5.1 (the torch in projenv).
+# diffusers 0.41 and newer need torch 2.6+, so do not upgrade diffusers
+# unless torch is upgraded too.
+torch==2.5.1
+diffusers==0.35.2          # has FluxKontextPipeline, works with torch 2.5
+transformers==4.56.2       # needs huggingface-hub below 1.0
+huggingface-hub>=0.34,<1.0
+accelerate
+sentencepiece              # needed by FLUX's text model
+protobuf
+pillow
+numpy
+lpips                      # evaluate.py: how visible the protection is
+pandas                     # evaluate.py: tables
+matplotlib                 # evaluate.py: chart

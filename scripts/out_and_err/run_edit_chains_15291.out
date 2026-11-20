@@ -1,0 +1,454 @@
+Thu Nov 19 09:38:19 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.126.18             Driver Version: 580.126.18     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-80GB          Off |   00000000:01:00.0 Off |                   On |
+| N/A   37C    P0             51W /  500W |     213MiB /  81920MiB |     N/A      Default |
+|                                         |                        |              Enabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| MIG devices:                                                                            |
++------------------+----------------------------------+-----------+-----------------------+
+| GPU  GI  CI  MIG |              Shared Memory-Usage |        Vol|        Shared         |
+|      ID  ID  Dev |                Shared BAR1-Usage | SM     Unc| CE ENC  DEC  OFA  JPG |
+|                  |                                  |        ECC|                       |
+|==================+==================================+===========+=======================|
+|  0    1   0   0  |             107MiB / 40192MiB    | 42      0 |  3   0    2    0    0 |
+|                  |               0MiB / 24543MiB    |           |                       |
++------------------+----------------------------------+-----------+-----------------------+
+|  0    2   0   1  |             107MiB / 40192MiB    | 42      0 |  3   0    2    0    0 |
+|                  |               0MiB / 24543MiB    |           |                       |
++------------------+----------------------------------+-----------+-----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+=== Step 1 of 2: protect the photos with PhotoGuard  (started 2026-11-19 09:38) ===
+All photos are already protected.
+=== Step 2 of 2: run the edit chains  (started 2026-11-19 09:38) ===
+40 photos x 2 versions x 1 seeds, 2 workers, 2 GPU(s).
+Editor A = instruct_pix2pix,  Editor B = flux_kontext
+[worker 0] 20 photos on cuda:0
+[worker 0] step 1 with editor A (instruct_pix2pix)
+[worker 1] 20 photos on cuda:1
+[worker 1] step 1 with editor A (instruct_pix2pix)
+[worker 0] step 1 with editor B (flux_kontext)
+[worker 1] step 1 with editor B (flux_kontext)
+[worker 0] step1_B clean seed42 backpack_00
+[worker 1] step1_B clean seed42 backpack_01
+[worker 0] step1_B clean seed42 backpack_dog_00
+[worker 1] step1_B clean seed42 backpack_dog_01
+[worker 0] step1_B clean seed42 bear_plushie_00
+[worker 1] step1_B clean seed42 bear_plushie_01
+[worker 0] step1_B clean seed42 berry_bowl_00
+[worker 1] step1_B clean seed42 berry_bowl_01
+[worker 0] step1_B clean seed42 can_00
+[worker 1] step1_B clean seed42 can_01
+[worker 0] step1_B clean seed42 candle_00
+[worker 1] step1_B clean seed42 candle_01
+[worker 0] step1_B clean seed42 cat2_00
+[worker 1] step1_B clean seed42 cat2_01
+[worker 0] step1_B clean seed42 cat_00
+[worker 1] step1_B clean seed42 cat_01
+[worker 0] step1_B clean seed42 clock_00
+[worker 1] step1_B clean seed42 clock_01
+[worker 0] step1_B clean seed42 colorful_sneaker_00
+[worker 1] step1_B clean seed42 colorful_sneaker_01
+[worker 0] step1_B clean seed42 dog2_00
+[worker 1] step1_B clean seed42 dog3_00
+[worker 0] step1_B clean seed42 dog5_00
+[worker 1] step1_B clean seed42 dog6_00
+[worker 1] step1_B clean seed42 dog8_00
+[worker 0] step1_B clean seed42 dog7_00
+[worker 1] step1_B clean seed42 duck_toy_00
+[worker 0] step1_B clean seed42 dog_00
+[worker 1] step1_B clean seed42 grey_sloth_plushie_00
+[worker 0] step1_B clean seed42 fancy_boot_00
+[worker 1] step1_B clean seed42 pink_sunglasses_00
+[worker 0] step1_B clean seed42 monster_toy_00
+[worker 1] step1_B clean seed42 rc_car_00
+[worker 0] step1_B clean seed42 poop_emoji_00
+[worker 1] step1_B clean seed42 robot_toy_00
+[worker 0] step1_B clean seed42 red_cartoon_00
+[worker 1] step1_B clean seed42 teapot_00
+[worker 0] step1_B clean seed42 shiny_sneaker_00
+[worker 1] step1_B clean seed42 wolf_plushie_00
+[worker 0] step1_B clean seed42 vase_00
+[worker 1] step1_B photoguard seed42 backpack_01
+[worker 0] step1_B photoguard seed42 backpack_00
+[worker 1] step1_B photoguard seed42 backpack_dog_01
+[worker 0] step1_B photoguard seed42 backpack_dog_00
+[worker 1] step1_B photoguard seed42 bear_plushie_01
+[worker 0] step1_B photoguard seed42 bear_plushie_00
+[worker 1] step1_B photoguard seed42 berry_bowl_01
+[worker 0] step1_B photoguard seed42 berry_bowl_00
+[worker 1] step1_B photoguard seed42 can_01
+[worker 0] step1_B photoguard seed42 can_00
+[worker 1] step1_B photoguard seed42 candle_01
+[worker 0] step1_B photoguard seed42 candle_00
+[worker 1] step1_B photoguard seed42 cat2_01
+[worker 0] step1_B photoguard seed42 cat2_00
+[worker 1] step1_B photoguard seed42 cat_01
+[worker 0] step1_B photoguard seed42 cat_00
+[worker 1] step1_B photoguard seed42 clock_01
+[worker 0] step1_B photoguard seed42 clock_00
+[worker 1] step1_B photoguard seed42 colorful_sneaker_01
+[worker 0] step1_B photoguard seed42 colorful_sneaker_00
+[worker 1] step1_B photoguard seed42 dog3_00
+[worker 0] step1_B photoguard seed42 dog2_00
+[worker 1] step1_B photoguard seed42 dog6_00
+[worker 0] step1_B photoguard seed42 dog5_00
+[worker 1] step1_B photoguard seed42 dog8_00
+[worker 0] step1_B photoguard seed42 dog7_00
+[worker 1] step1_B photoguard seed42 duck_toy_00
+[worker 0] step1_B photoguard seed42 dog_00
+[worker 1] step1_B photoguard seed42 grey_sloth_plushie_00
+[worker 0] step1_B photoguard seed42 fancy_boot_00
+[worker 1] step1_B photoguard seed42 pink_sunglasses_00
+[worker 0] step1_B photoguard seed42 monster_toy_00
+[worker 1] step1_B photoguard seed42 rc_car_00
+[worker 0] step1_B photoguard seed42 poop_emoji_00
+[worker 1] step1_B photoguard seed42 robot_toy_00
+[worker 0] step1_B photoguard seed42 red_cartoon_00
+[worker 1] step1_B photoguard seed42 teapot_00
+[worker 0] step1_B photoguard seed42 shiny_sneaker_00
+[worker 1] step1_B photoguard seed42 wolf_plushie_00
+[worker 1] step 2 with editor A (instruct_pix2pix)
+[worker 1] step2_A_then_A clean seed42 backpack_01
+[worker 1] step2_A_then_A clean seed42 backpack_dog_01
+[worker 1] step2_A_then_A clean seed42 bear_plushie_01
+[worker 0] step1_B photoguard seed42 vase_00
+[worker 0] step 2 with editor A (instruct_pix2pix)
+[worker 1] step2_A_then_A clean seed42 berry_bowl_01
+[worker 1] step2_A_then_A clean seed42 can_01
+[worker 0] step2_A_then_A clean seed42 backpack_00
+[worker 1] step2_A_then_A clean seed42 candle_01
+[worker 0] step2_A_then_A clean seed42 backpack_dog_00
+[worker 1] step2_A_then_A clean seed42 cat2_01
+[worker 0] step2_A_then_A clean seed42 bear_plushie_00
+[worker 1] step2_A_then_A clean seed42 cat_01
+[worker 0] step2_A_then_A clean seed42 berry_bowl_00
+[worker 1] step2_A_then_A clean seed42 clock_01
+[worker 0] step2_A_then_A clean seed42 can_00
+[worker 1] step2_A_then_A clean seed42 colorful_sneaker_01
+[worker 0] step2_A_then_A clean seed42 candle_00
+[worker 1] step2_A_then_A clean seed42 dog3_00
+[worker 0] step2_A_then_A clean seed42 cat2_00
+[worker 1] step2_A_then_A clean seed42 dog6_00
+[worker 0] step2_A_then_A clean seed42 cat_00
+[worker 1] step2_A_then_A clean seed42 dog8_00
+[worker 0] step2_A_then_A clean seed42 clock_00
+[worker 1] step2_A_then_A clean seed42 duck_toy_00
+[worker 0] step2_A_then_A clean seed42 colorful_sneaker_00
+[worker 1] step2_A_then_A clean seed42 grey_sloth_plushie_00
+[worker 0] step2_A_then_A clean seed42 dog2_00
+[worker 1] step2_A_then_A clean seed42 pink_sunglasses_00
+[worker 0] step2_A_then_A clean seed42 dog5_00
+[worker 1] step2_A_then_A clean seed42 rc_car_00
+[worker 0] step2_A_then_A clean seed42 dog7_00
+[worker 1] step2_A_then_A clean seed42 robot_toy_00
+[worker 0] step2_A_then_A clean seed42 dog_00
+[worker 1] step2_A_then_A clean seed42 teapot_00
+[worker 0] step2_A_then_A clean seed42 fancy_boot_00
+[worker 1] step2_A_then_A clean seed42 wolf_plushie_00
+[worker 0] step2_A_then_A clean seed42 monster_toy_00
+[worker 1] step2_A_then_A photoguard seed42 backpack_01
+[worker 0] step2_A_then_A clean seed42 poop_emoji_00
+[worker 1] step2_A_then_A photoguard seed42 backpack_dog_01
+[worker 0] step2_A_then_A clean seed42 red_cartoon_00
+[worker 1] step2_A_then_A photoguard seed42 bear_plushie_01
+[worker 0] step2_A_then_A clean seed42 shiny_sneaker_00
+[worker 1] step2_A_then_A photoguard seed42 berry_bowl_01
+[worker 0] step2_A_then_A clean seed42 vase_00
+[worker 1] step2_A_then_A photoguard seed42 can_01
+[worker 0] step2_A_then_A photoguard seed42 backpack_00
+[worker 1] step2_A_then_A photoguard seed42 candle_01
+[worker 0] step2_A_then_A photoguard seed42 backpack_dog_00
+[worker 1] step2_A_then_A photoguard seed42 cat2_01
+[worker 0] step2_A_then_A photoguard seed42 bear_plushie_00
+[worker 1] step2_A_then_A photoguard seed42 cat_01
+[worker 0] step2_A_then_A photoguard seed42 berry_bowl_00
+[worker 1] step2_A_then_A photoguard seed42 clock_01
+[worker 0] step2_A_then_A photoguard seed42 can_00
+[worker 1] step2_A_then_A photoguard seed42 colorful_sneaker_01
+[worker 0] step2_A_then_A photoguard seed42 candle_00
+[worker 1] step2_A_then_A photoguard seed42 dog3_00
+[worker 0] step2_A_then_A photoguard seed42 cat2_00
+[worker 1] step2_A_then_A photoguard seed42 dog6_00
+[worker 0] step2_A_then_A photoguard seed42 cat_00
+[worker 1] step2_A_then_A photoguard seed42 dog8_00
+[worker 0] step2_A_then_A photoguard seed42 clock_00
+[worker 1] step2_A_then_A photoguard seed42 duck_toy_00
+[worker 0] step2_A_then_A photoguard seed42 colorful_sneaker_00
+[worker 1] step2_A_then_A photoguard seed42 grey_sloth_plushie_00
+[worker 0] step2_A_then_A photoguard seed42 dog2_00
+[worker 1] step2_A_then_A photoguard seed42 pink_sunglasses_00
+[worker 0] step2_A_then_A photoguard seed42 dog5_00
+[worker 1] step2_A_then_A photoguard seed42 rc_car_00
+[worker 0] step2_A_then_A photoguard seed42 dog7_00
+[worker 1] step2_A_then_A photoguard seed42 robot_toy_00
+[worker 0] step2_A_then_A photoguard seed42 dog_00
+[worker 1] step2_A_then_A photoguard seed42 teapot_00
+[worker 0] step2_A_then_A photoguard seed42 fancy_boot_00
+[worker 1] step2_A_then_A photoguard seed42 wolf_plushie_00
+[worker 0] step2_A_then_A photoguard seed42 monster_toy_00
+[worker 1] step2_B_then_A clean seed42 backpack_01
+[worker 0] step2_A_then_A photoguard seed42 poop_emoji_00
+[worker 1] step2_B_then_A clean seed42 backpack_dog_01
+[worker 0] step2_A_then_A photoguard seed42 red_cartoon_00
+[worker 0] step2_A_then_A photoguard seed42 shiny_sneaker_00
+[worker 1] step2_B_then_A clean seed42 bear_plushie_01
+[worker 0] step2_A_then_A photoguard seed42 vase_00
+[worker 1] step2_B_then_A clean seed42 berry_bowl_01
+[worker 0] step2_B_then_A clean seed42 backpack_00
+[worker 1] step2_B_then_A clean seed42 can_01
+[worker 0] step2_B_then_A clean seed42 backpack_dog_00
+[worker 1] step2_B_then_A clean seed42 candle_01
+[worker 0] step2_B_then_A clean seed42 bear_plushie_00
+[worker 1] step2_B_then_A clean seed42 cat2_01
+[worker 0] step2_B_then_A clean seed42 berry_bowl_00
+[worker 1] step2_B_then_A clean seed42 cat_01
+[worker 0] step2_B_then_A clean seed42 can_00
+[worker 1] step2_B_then_A clean seed42 clock_01
+[worker 0] step2_B_then_A clean seed42 candle_00
+[worker 1] step2_B_then_A clean seed42 colorful_sneaker_01
+[worker 0] step2_B_then_A clean seed42 cat2_00
+[worker 1] step2_B_then_A clean seed42 dog3_00
+[worker 0] step2_B_then_A clean seed42 cat_00
+[worker 1] step2_B_then_A clean seed42 dog6_00
+[worker 0] step2_B_then_A clean seed42 clock_00
+[worker 1] step2_B_then_A clean seed42 dog8_00
+[worker 0] step2_B_then_A clean seed42 colorful_sneaker_00
+[worker 1] step2_B_then_A clean seed42 duck_toy_00
+[worker 0] step2_B_then_A clean seed42 dog2_00
+[worker 1] step2_B_then_A clean seed42 grey_sloth_plushie_00
+[worker 0] step2_B_then_A clean seed42 dog5_00
+[worker 1] step2_B_then_A clean seed42 pink_sunglasses_00
+[worker 0] step2_B_then_A clean seed42 dog7_00
+[worker 1] step2_B_then_A clean seed42 rc_car_00
+[worker 0] step2_B_then_A clean seed42 dog_00
+[worker 1] step2_B_then_A clean seed42 robot_toy_00
+[worker 0] step2_B_then_A clean seed42 fancy_boot_00
+[worker 1] step2_B_then_A clean seed42 teapot_00
+[worker 0] step2_B_then_A clean seed42 monster_toy_00
+[worker 1] step2_B_then_A clean seed42 wolf_plushie_00
+[worker 0] step2_B_then_A clean seed42 poop_emoji_00
+[worker 1] step2_B_then_A photoguard seed42 backpack_01
+[worker 0] step2_B_then_A clean seed42 red_cartoon_00
+[worker 1] step2_B_then_A photoguard seed42 backpack_dog_01
+[worker 0] step2_B_then_A clean seed42 shiny_sneaker_00
+[worker 1] step2_B_then_A photoguard seed42 bear_plushie_01
+[worker 0] step2_B_then_A clean seed42 vase_00
+[worker 1] step2_B_then_A photoguard seed42 berry_bowl_01
+[worker 0] step2_B_then_A photoguard seed42 backpack_00
+[worker 1] step2_B_then_A photoguard seed42 can_01
+[worker 0] step2_B_then_A photoguard seed42 backpack_dog_00
+[worker 1] step2_B_then_A photoguard seed42 candle_01
+[worker 0] step2_B_then_A photoguard seed42 bear_plushie_00
+[worker 1] step2_B_then_A photoguard seed42 cat2_01
+[worker 0] step2_B_then_A photoguard seed42 berry_bowl_00
+[worker 1] step2_B_then_A photoguard seed42 cat_01
+[worker 0] step2_B_then_A photoguard seed42 can_00
+[worker 1] step2_B_then_A photoguard seed42 clock_01
+[worker 0] step2_B_then_A photoguard seed42 candle_00
+[worker 1] step2_B_then_A photoguard seed42 colorful_sneaker_01
+[worker 0] step2_B_then_A photoguard seed42 cat2_00
+[worker 1] step2_B_then_A photoguard seed42 dog3_00
+[worker 0] step2_B_then_A photoguard seed42 cat_00
+[worker 1] step2_B_then_A photoguard seed42 dog6_00
+[worker 0] step2_B_then_A photoguard seed42 clock_00
+[worker 1] step2_B_then_A photoguard seed42 dog8_00
+[worker 0] step2_B_then_A photoguard seed42 colorful_sneaker_00
+[worker 1] step2_B_then_A photoguard seed42 duck_toy_00
+[worker 0] step2_B_then_A photoguard seed42 dog2_00
+[worker 1] step2_B_then_A photoguard seed42 grey_sloth_plushie_00
+[worker 0] step2_B_then_A photoguard seed42 dog5_00
+[worker 1] step2_B_then_A photoguard seed42 pink_sunglasses_00
+[worker 0] step2_B_then_A photoguard seed42 dog7_00
+[worker 1] step2_B_then_A photoguard seed42 rc_car_00
+[worker 0] step2_B_then_A photoguard seed42 dog_00
+[worker 1] step2_B_then_A photoguard seed42 robot_toy_00
+[worker 0] step2_B_then_A photoguard seed42 fancy_boot_00
+[worker 1] step2_B_then_A photoguard seed42 teapot_00
+[worker 0] step2_B_then_A photoguard seed42 monster_toy_00
+[worker 1] step2_B_then_A photoguard seed42 wolf_plushie_00
+[worker 1] step 2 with editor B (flux_kontext)
+[worker 0] step2_B_then_A photoguard seed42 poop_emoji_00
+[worker 0] step2_B_then_A photoguard seed42 red_cartoon_00
+[worker 0] step2_B_then_A photoguard seed42 shiny_sneaker_00
+[worker 0] step2_B_then_A photoguard seed42 vase_00
+[worker 0] step 2 with editor B (flux_kontext)
+[worker 1] step2_A_then_B clean seed42 backpack_01
+[worker 0] step2_A_then_B clean seed42 backpack_00
+[worker 1] step2_A_then_B clean seed42 backpack_dog_01
+[worker 0] step2_A_then_B clean seed42 backpack_dog_00
+[worker 1] step2_A_then_B clean seed42 bear_plushie_01
+[worker 0] step2_A_then_B clean seed42 bear_plushie_00
+[worker 1] step2_A_then_B clean seed42 berry_bowl_01
+[worker 0] step2_A_then_B clean seed42 berry_bowl_00
+[worker 1] step2_A_then_B clean seed42 can_01
+[worker 0] step2_A_then_B clean seed42 can_00
+[worker 1] step2_A_then_B clean seed42 candle_01
+[worker 0] step2_A_then_B clean seed42 candle_00
+[worker 1] step2_A_then_B clean seed42 cat2_01
+[worker 0] step2_A_then_B clean seed42 cat2_00
+[worker 1] step2_A_then_B clean seed42 cat_01
+[worker 0] step2_A_then_B clean seed42 cat_00
+[worker 1] step2_A_then_B clean seed42 clock_01
+[worker 0] step2_A_then_B clean seed42 clock_00
+[worker 1] step2_A_then_B clean seed42 colorful_sneaker_01
+[worker 0] step2_A_then_B clean seed42 colorful_sneaker_00
+[worker 1] step2_A_then_B clean seed42 dog3_00
+[worker 0] step2_A_then_B clean seed42 dog2_00
+[worker 1] step2_A_then_B clean seed42 dog6_00
+[worker 0] step2_A_then_B clean seed42 dog5_00
+[worker 1] step2_A_then_B clean seed42 dog8_00
+[worker 0] step2_A_then_B clean seed42 dog7_00
+[worker 1] step2_A_then_B clean seed42 duck_toy_00
+[worker 0] step2_A_then_B clean seed42 dog_00
+[worker 1] step2_A_then_B clean seed42 grey_sloth_plushie_00
+[worker 0] step2_A_then_B clean seed42 fancy_boot_00
+[worker 1] step2_A_then_B clean seed42 pink_sunglasses_00
+[worker 0] step2_A_then_B clean seed42 monster_toy_00
+[worker 1] step2_A_then_B clean seed42 rc_car_00
+[worker 0] step2_A_then_B clean seed42 poop_emoji_00
+[worker 1] step2_A_then_B clean seed42 robot_toy_00
+[worker 0] step2_A_then_B clean seed42 red_cartoon_00
+[worker 1] step2_A_then_B clean seed42 teapot_00
+[worker 0] step2_A_then_B clean seed42 shiny_sneaker_00
+[worker 1] step2_A_then_B clean seed42 wolf_plushie_00
+[worker 0] step2_A_then_B clean seed42 vase_00
+[worker 1] step2_A_then_B photoguard seed42 backpack_01
+[worker 0] step2_A_then_B photoguard seed42 backpack_00
+[worker 1] step2_A_then_B photoguard seed42 backpack_dog_01
+[worker 0] step2_A_then_B photoguard seed42 backpack_dog_00
+[worker 1] step2_A_then_B photoguard seed42 bear_plushie_01
+[worker 0] step2_A_then_B photoguard seed42 bear_plushie_00
+[worker 1] step2_A_then_B photoguard seed42 berry_bowl_01
+[worker 0] step2_A_then_B photoguard seed42 berry_bowl_00
+[worker 1] step2_A_then_B photoguard seed42 can_01
+[worker 0] step2_A_then_B photoguard seed42 can_00
+[worker 1] step2_A_then_B photoguard seed42 candle_01
+[worker 0] step2_A_then_B photoguard seed42 candle_00
+[worker 1] step2_A_then_B photoguard seed42 cat2_01
+[worker 0] step2_A_then_B photoguard seed42 cat2_00
+[worker 1] step2_A_then_B photoguard seed42 cat_01
+[worker 0] step2_A_then_B photoguard seed42 cat_00
+[worker 1] step2_A_then_B photoguard seed42 clock_01
+[worker 0] step2_A_then_B photoguard seed42 clock_00
+[worker 1] step2_A_then_B photoguard seed42 colorful_sneaker_01
+[worker 0] step2_A_then_B photoguard seed42 colorful_sneaker_00
+[worker 1] step2_A_then_B photoguard seed42 dog3_00
+[worker 0] step2_A_then_B photoguard seed42 dog2_00
+[worker 1] step2_A_then_B photoguard seed42 dog6_00
+[worker 0] step2_A_then_B photoguard seed42 dog5_00
+[worker 1] step2_A_then_B photoguard seed42 dog8_00
+[worker 0] step2_A_then_B photoguard seed42 dog7_00
+[worker 1] step2_A_then_B photoguard seed42 duck_toy_00
+[worker 0] step2_A_then_B photoguard seed42 dog_00
+[worker 1] step2_A_then_B photoguard seed42 grey_sloth_plushie_00
+[worker 0] step2_A_then_B photoguard seed42 fancy_boot_00
+[worker 1] step2_A_then_B photoguard seed42 pink_sunglasses_00
+[worker 0] step2_A_then_B photoguard seed42 monster_toy_00
+[worker 1] step2_A_then_B photoguard seed42 rc_car_00
+[worker 0] step2_A_then_B photoguard seed42 poop_emoji_00
+[worker 1] step2_A_then_B photoguard seed42 robot_toy_00
+[worker 0] step2_A_then_B photoguard seed42 red_cartoon_00
+[worker 1] step2_A_then_B photoguard seed42 teapot_00
+[worker 0] step2_A_then_B photoguard seed42 shiny_sneaker_00
+[worker 1] step2_A_then_B photoguard seed42 wolf_plushie_00
+[worker 0] step2_A_then_B photoguard seed42 vase_00
+[worker 1] step2_B_then_B clean seed42 backpack_01
+[worker 0] step2_B_then_B clean seed42 backpack_00
+[worker 1] step2_B_then_B clean seed42 backpack_dog_01
+[worker 0] step2_B_then_B clean seed42 backpack_dog_00
+[worker 1] step2_B_then_B clean seed42 bear_plushie_01
+[worker 0] step2_B_then_B clean seed42 bear_plushie_00
+[worker 1] step2_B_then_B clean seed42 berry_bowl_01
+[worker 0] step2_B_then_B clean seed42 berry_bowl_00
+[worker 1] step2_B_then_B clean seed42 can_01
+[worker 0] step2_B_then_B clean seed42 can_00
+[worker 1] step2_B_then_B clean seed42 candle_01
+[worker 0] step2_B_then_B clean seed42 candle_00
+[worker 1] step2_B_then_B clean seed42 cat2_01
+[worker 0] step2_B_then_B clean seed42 cat2_00
+[worker 1] step2_B_then_B clean seed42 cat_01
+[worker 0] step2_B_then_B clean seed42 cat_00
+[worker 1] step2_B_then_B clean seed42 clock_01
+[worker 0] step2_B_then_B clean seed42 clock_00
+[worker 1] step2_B_then_B clean seed42 colorful_sneaker_01
+[worker 0] step2_B_then_B clean seed42 colorful_sneaker_00
+[worker 1] step2_B_then_B clean seed42 dog3_00
+[worker 0] step2_B_then_B clean seed42 dog2_00
+[worker 1] step2_B_then_B clean seed42 dog6_00
+[worker 0] step2_B_then_B clean seed42 dog5_00
+[worker 1] step2_B_then_B clean seed42 dog8_00
+[worker 0] step2_B_then_B clean seed42 dog7_00
+[worker 1] step2_B_then_B clean seed42 duck_toy_00
+[worker 0] step2_B_then_B clean seed42 dog_00
+[worker 1] step2_B_then_B clean seed42 grey_sloth_plushie_00
+[worker 0] step2_B_then_B clean seed42 fancy_boot_00
+[worker 1] step2_B_then_B clean seed42 pink_sunglasses_00
+[worker 0] step2_B_then_B clean seed42 monster_toy_00
+[worker 1] step2_B_then_B clean seed42 rc_car_00
+[worker 0] step2_B_then_B clean seed42 poop_emoji_00
+[worker 1] step2_B_then_B clean seed42 robot_toy_00
+[worker 0] step2_B_then_B clean seed42 red_cartoon_00
+[worker 1] step2_B_then_B clean seed42 teapot_00
+[worker 0] step2_B_then_B clean seed42 shiny_sneaker_00
+[worker 1] step2_B_then_B clean seed42 wolf_plushie_00
+[worker 0] step2_B_then_B clean seed42 vase_00
+[worker 1] step2_B_then_B photoguard seed42 backpack_01
+[worker 0] step2_B_then_B photoguard seed42 backpack_00
+[worker 0] step2_B_then_B photoguard seed42 backpack_dog_00
+[worker 1] step2_B_then_B photoguard seed42 backpack_dog_01
+[worker 0] step2_B_then_B photoguard seed42 bear_plushie_00
+[worker 1] step2_B_then_B photoguard seed42 bear_plushie_01
+[worker 0] step2_B_then_B photoguard seed42 berry_bowl_00
+[worker 1] step2_B_then_B photoguard seed42 berry_bowl_01
+[worker 0] step2_B_then_B photoguard seed42 can_00
+[worker 1] step2_B_then_B photoguard seed42 can_01
+[worker 0] step2_B_then_B photoguard seed42 candle_00
+[worker 1] step2_B_then_B photoguard seed42 candle_01
+[worker 0] step2_B_then_B photoguard seed42 cat2_00
+[worker 1] step2_B_then_B photoguard seed42 cat2_01
+[worker 0] step2_B_then_B photoguard seed42 cat_00
+[worker 1] step2_B_then_B photoguard seed42 cat_01
+[worker 0] step2_B_then_B photoguard seed42 clock_00
+[worker 1] step2_B_then_B photoguard seed42 clock_01
+[worker 0] step2_B_then_B photoguard seed42 colorful_sneaker_00
+[worker 1] step2_B_then_B photoguard seed42 colorful_sneaker_01
+[worker 0] step2_B_then_B photoguard seed42 dog2_00
+[worker 1] step2_B_then_B photoguard seed42 dog3_00
+[worker 0] step2_B_then_B photoguard seed42 dog5_00
+[worker 1] step2_B_then_B photoguard seed42 dog6_00
+[worker 0] step2_B_then_B photoguard seed42 dog7_00
+[worker 1] step2_B_then_B photoguard seed42 dog8_00
+[worker 0] step2_B_then_B photoguard seed42 dog_00
+[worker 1] step2_B_then_B photoguard seed42 duck_toy_00
+[worker 0] step2_B_then_B photoguard seed42 fancy_boot_00
+[worker 1] step2_B_then_B photoguard seed42 grey_sloth_plushie_00
+[worker 0] step2_B_then_B photoguard seed42 monster_toy_00
+[worker 1] step2_B_then_B photoguard seed42 pink_sunglasses_00
+[worker 0] step2_B_then_B photoguard seed42 poop_emoji_00
+[worker 1] step2_B_then_B photoguard seed42 rc_car_00
+[worker 0] step2_B_then_B photoguard seed42 red_cartoon_00
+[worker 1] step2_B_then_B photoguard seed42 robot_toy_00
+[worker 0] step2_B_then_B photoguard seed42 shiny_sneaker_00
+[worker 1] step2_B_then_B photoguard seed42 teapot_00
+[worker 0] step2_B_then_B photoguard seed42 vase_00
+[worker 0] finished
+[worker 1] step2_B_then_B photoguard seed42 wolf_plushie_00
+[worker 1] finished
+
+Done. All results are in /s/chopin/e/proj/hyperspec/masfiq/image_protection_against_ai/scripts/../data/result_version_2/edits
+=== Step 2 finished 2026-11-19 12:26 ===

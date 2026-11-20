@@ -1,0 +1,6 @@
+Scoring 40 photos in /s/chopin/e/proj/hyperspec/masfiq/image_protection_against_ai/scripts/../data/result_version_2 on cuda
+Score 1: how visible is the protection (LPIPS, PSNR)...
+Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]
+Loading model from: /s/chopin/e/proj/hyperspec/masfiq/projenv/lib/python3.10/site-packages/lpips/weights/v0.1/alex.pth
+  average LPIPS 0.323, average PSNR 29.0 dB
+Scores 2 and 3: same object (DINOv2) and followed the instruction (CLIP)...

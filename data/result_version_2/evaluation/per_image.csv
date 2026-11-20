@@ -1,0 +1,561 @@
+version,chain,step,image_id,same_object_dinov2,clip_score,description
+clean,no edit,0,backpack_00,1.0000001192092896,,
+clean,A,1,backpack_00,0.9770873785018921,0.7480475306510925,a photo of a backpack on a sunny beach
+clean,B,1,backpack_00,0.8163123726844788,0.774247795343399,a photo of a backpack on a sunny beach
+clean,A→A,2,backpack_00,0.9522354602813721,0.7619325816631317,a photo of a bright blue backpack
+clean,A→B,2,backpack_00,0.9635801315307617,0.8352106064558029,a photo of a bright blue backpack
+clean,B→A,2,backpack_00,0.8031927347183228,0.7623987644910812,a photo of a bright blue backpack
+clean,B→B,2,backpack_00,0.793225884437561,0.8212471008300781,a photo of a bright blue backpack
+photoguard,no edit,0,backpack_00,0.934810221195221,,
+photoguard,A,1,backpack_00,0.027887769043445587,0.675482302904129,a photo of a backpack on a sunny beach
+photoguard,B,1,backpack_00,0.8075971603393555,0.7951292395591736,a photo of a backpack on a sunny beach
+photoguard,A→A,2,backpack_00,0.03361862152814865,0.5461486801505089,a photo of a bright blue backpack
+photoguard,A→B,2,backpack_00,0.08705447614192963,0.6446687877178192,a photo of a bright blue backpack
+photoguard,B→A,2,backpack_00,0.7157095670700073,0.8173175156116486,a photo of a bright blue backpack
+photoguard,B→B,2,backpack_00,0.7914301156997681,0.8674263209104538,a photo of a bright blue backpack
+clean,no edit,0,backpack_01,0.9999999403953552,,
+clean,A,1,backpack_01,0.9728208184242249,0.6742338836193085,a photo of a backpack on a sunny beach
+clean,B,1,backpack_01,0.8375388979911804,0.7802175730466843,a photo of a backpack on a sunny beach
+clean,A→A,2,backpack_01,0.9476003646850586,0.7667548209428787,a photo of a bright blue backpack
+clean,A→B,2,backpack_01,0.9639241099357605,0.7904690504074097,a photo of a bright blue backpack
+clean,B→A,2,backpack_01,0.8077235221862793,0.7944677770137787,a photo of a bright blue backpack
+clean,B→B,2,backpack_01,0.8168826103210449,0.8141648024320602,a photo of a bright blue backpack
+photoguard,no edit,0,backpack_01,0.9506920576095581,,
+photoguard,A,1,backpack_01,0.10699031502008438,0.5237321555614471,a photo of a backpack on a sunny beach
+photoguard,B,1,backpack_01,0.825928807258606,0.7795163244009018,a photo of a backpack on a sunny beach
+photoguard,A→A,2,backpack_01,0.1063227504491806,0.5393008887767792,a photo of a bright blue backpack
+photoguard,A→B,2,backpack_01,0.0962047278881073,0.591748021543026,a photo of a bright blue backpack
+photoguard,B→A,2,backpack_01,0.7943065762519836,0.8330253511667252,a photo of a bright blue backpack
+photoguard,B→B,2,backpack_01,0.8081141710281372,0.8520668745040894,a photo of a bright blue backpack
+clean,no edit,0,backpack_dog_00,1.0,,
+clean,A,1,backpack_dog_00,0.9575358629226685,0.7003463059663773,a photo of a backpack dog on a sunny beach
+clean,B,1,backpack_dog_00,0.9244645833969116,0.7994522154331207,a photo of a backpack dog on a sunny beach
+clean,A→A,2,backpack_dog_00,0.9449509382247925,0.8597865700721741,a photo of a bright blue backpack dog
+clean,A→B,2,backpack_dog_00,0.9406098127365112,0.8779829740524292,a photo of a bright blue backpack dog
+clean,B→A,2,backpack_dog_00,0.8947096467018127,0.8104095607995987,a photo of a bright blue backpack dog
+clean,B→B,2,backpack_dog_00,0.9079216718673706,0.7827393710613251,a photo of a bright blue backpack dog
+photoguard,no edit,0,backpack_dog_00,0.9686810970306396,,
+photoguard,A,1,backpack_dog_00,-0.04342299699783325,0.5903381854295731,a photo of a backpack dog on a sunny beach
+photoguard,B,1,backpack_dog_00,0.8019265532493591,0.7762579619884491,a photo of a backpack dog on a sunny beach
+photoguard,A→A,2,backpack_dog_00,-0.03952360525727272,0.4953841120004654,a photo of a bright blue backpack dog
+photoguard,A→B,2,backpack_dog_00,-0.050389260053634644,0.4820884019136429,a photo of a bright blue backpack dog
+photoguard,B→A,2,backpack_dog_00,0.6480262875556946,0.6496478617191315,a photo of a bright blue backpack dog
+photoguard,B→B,2,backpack_dog_00,0.8030653595924377,0.8088187873363495,a photo of a bright blue backpack dog
+clean,no edit,0,backpack_dog_01,1.0,,
+clean,A,1,backpack_dog_01,0.9200934767723083,0.6720427423715591,a photo of a backpack dog on a sunny beach
+clean,B,1,backpack_dog_01,0.7212446331977844,0.87296262383461,a photo of a backpack dog on a sunny beach
+clean,A→A,2,backpack_dog_01,0.901655375957489,0.8803419023752213,a photo of a bright blue backpack dog
+clean,A→B,2,backpack_dog_01,0.9091718792915344,0.8869298547506332,a photo of a bright blue backpack dog
+clean,B→A,2,backpack_dog_01,0.6915010213851929,0.8689892292022705,a photo of a bright blue backpack dog
+clean,B→B,2,backpack_dog_01,0.6738042831420898,0.8473006635904312,a photo of a bright blue backpack dog
+photoguard,no edit,0,backpack_dog_01,0.9421578645706177,,
+photoguard,A,1,backpack_dog_01,0.46633580327033997,0.5830444768071175,a photo of a backpack dog on a sunny beach
+photoguard,B,1,backpack_dog_01,0.7325136661529541,0.8645385503768921,a photo of a backpack dog on a sunny beach
+photoguard,A→A,2,backpack_dog_01,0.4550725221633911,0.6086921691894531,a photo of a bright blue backpack dog
+photoguard,A→B,2,backpack_dog_01,0.36309337615966797,0.6997326016426086,a photo of a bright blue backpack dog
+photoguard,B→A,2,backpack_dog_01,0.6894019842147827,0.7908252626657486,a photo of a bright blue backpack dog
+photoguard,B→B,2,backpack_dog_01,0.6940731406211853,0.8198010921478271,a photo of a bright blue backpack dog
+clean,no edit,0,bear_plushie_00,1.0,,
+clean,A,1,bear_plushie_00,0.6387422680854797,0.8445419371128082,a photo of a bear plushie on a sunny beach
+clean,B,1,bear_plushie_00,0.7210419178009033,0.8656053990125656,a photo of a bear plushie on a sunny beach
+clean,A→A,2,bear_plushie_00,0.6950601935386658,0.7300929725170135,a photo of a bright blue bear plushie
+clean,A→B,2,bear_plushie_00,0.6099445819854736,0.8491799980401993,a photo of a bright blue bear plushie
+clean,B→A,2,bear_plushie_00,0.7241036891937256,0.762731283903122,a photo of a bright blue bear plushie
+clean,B→B,2,bear_plushie_00,0.707096517086029,0.8172351121902466,a photo of a bright blue bear plushie
+photoguard,no edit,0,bear_plushie_00,0.9756925106048584,,
+photoguard,A,1,bear_plushie_00,0.6537436246871948,0.8470262587070465,a photo of a bear plushie on a sunny beach
+photoguard,B,1,bear_plushie_00,0.7398430705070496,0.8648018538951874,a photo of a bear plushie on a sunny beach
+photoguard,A→A,2,bear_plushie_00,0.6579505801200867,0.6951987743377686,a photo of a bright blue bear plushie
+photoguard,A→B,2,bear_plushie_00,0.645592451095581,0.8669698238372803,a photo of a bright blue bear plushie
+photoguard,B→A,2,bear_plushie_00,0.7435271739959717,0.7446152716875076,a photo of a bright blue bear plushie
+photoguard,B→B,2,bear_plushie_00,0.7273499965667725,0.8258084207773209,a photo of a bright blue bear plushie
+clean,no edit,0,bear_plushie_01,1.0,,
+clean,A,1,bear_plushie_01,0.860005259513855,0.9512779861688614,a photo of a bear plushie on a sunny beach
+clean,B,1,bear_plushie_01,0.7400319576263428,0.9119598567485809,a photo of a bear plushie on a sunny beach
+clean,A→A,2,bear_plushie_01,0.8498439788818359,0.8582901954650879,a photo of a bright blue bear plushie
+clean,A→B,2,bear_plushie_01,0.8409707546234131,0.9046684205532074,a photo of a bright blue bear plushie
+clean,B→A,2,bear_plushie_01,0.7125037312507629,0.8766457438468933,a photo of a bright blue bear plushie
+clean,B→B,2,bear_plushie_01,0.7168126106262207,0.880056768655777,a photo of a bright blue bear plushie
+photoguard,no edit,0,bear_plushie_01,0.9823256731033325,,
+photoguard,A,1,bear_plushie_01,0.6990278959274292,0.9146320074796677,a photo of a bear plushie on a sunny beach
+photoguard,B,1,bear_plushie_01,0.7355854511260986,0.9322530031204224,a photo of a bear plushie on a sunny beach
+photoguard,A→A,2,bear_plushie_01,0.7276667356491089,0.8206295967102051,a photo of a bright blue bear plushie
+photoguard,A→B,2,bear_plushie_01,0.7238699793815613,0.9145469963550568,a photo of a bright blue bear plushie
+photoguard,B→A,2,bear_plushie_01,0.7083818912506104,0.8545444905757904,a photo of a bright blue bear plushie
+photoguard,B→B,2,bear_plushie_01,0.720266580581665,0.8888448774814606,a photo of a bright blue bear plushie
+clean,no edit,0,berry_bowl_00,0.9999998807907104,,
+clean,A,1,berry_bowl_00,0.27937087416648865,0.6214145570993423,a photo of a berry bowl on a sunny beach
+clean,B,1,berry_bowl_00,0.7913706302642822,0.8692508190870285,a photo of a berry bowl on a sunny beach
+clean,A→A,2,berry_bowl_00,0.2515018880367279,0.5534527450799942,a photo of a bright blue berry bowl
+clean,A→B,2,berry_bowl_00,0.2758837938308716,0.594651997089386,a photo of a bright blue berry bowl
+clean,B→A,2,berry_bowl_00,0.8215029239654541,0.8151805400848389,a photo of a bright blue berry bowl
+clean,B→B,2,berry_bowl_00,0.7298752069473267,0.8150986582040787,a photo of a bright blue berry bowl
+photoguard,no edit,0,berry_bowl_00,0.9802360534667969,,
+photoguard,A,1,berry_bowl_00,0.646190881729126,0.7382061332464218,a photo of a berry bowl on a sunny beach
+photoguard,B,1,berry_bowl_00,0.8076104521751404,0.8665508031845093,a photo of a berry bowl on a sunny beach
+photoguard,A→A,2,berry_bowl_00,0.545357346534729,0.7583697885274887,a photo of a bright blue berry bowl
+photoguard,A→B,2,berry_bowl_00,0.6351909041404724,0.8591701090335846,a photo of a bright blue berry bowl
+photoguard,B→A,2,berry_bowl_00,0.8340374231338501,0.8124266564846039,a photo of a bright blue berry bowl
+photoguard,B→B,2,berry_bowl_00,0.7629451751708984,0.7881893217563629,a photo of a bright blue berry bowl
+clean,no edit,0,berry_bowl_01,1.0,,
+clean,A,1,berry_bowl_01,0.026678362861275673,0.6549237668514252,a photo of a berry bowl on a sunny beach
+clean,B,1,berry_bowl_01,0.844717800617218,0.893922820687294,a photo of a berry bowl on a sunny beach
+clean,A→A,2,berry_bowl_01,0.008354535326361656,0.5199931934475899,a photo of a bright blue berry bowl
+clean,A→B,2,berry_bowl_01,0.047174327075481415,0.5346417799592018,a photo of a bright blue berry bowl
+clean,B→A,2,berry_bowl_01,0.8075124025344849,0.7980380952358246,a photo of a bright blue berry bowl
+clean,B→B,2,berry_bowl_01,0.7302961349487305,0.8036056160926819,a photo of a bright blue berry bowl
+photoguard,no edit,0,berry_bowl_01,0.9614942669868469,,
+photoguard,A,1,berry_bowl_01,0.4268600344657898,0.7490455359220505,a photo of a berry bowl on a sunny beach
+photoguard,B,1,berry_bowl_01,0.7996636629104614,0.8700591325759888,a photo of a berry bowl on a sunny beach
+photoguard,A→A,2,berry_bowl_01,0.44237020611763,0.6530486047267914,a photo of a bright blue berry bowl
+photoguard,A→B,2,berry_bowl_01,0.314659982919693,0.6927263736724854,a photo of a bright blue berry bowl
+photoguard,B→A,2,berry_bowl_01,0.8189128637313843,0.7959415018558502,a photo of a bright blue berry bowl
+photoguard,B→B,2,berry_bowl_01,0.7496731281280518,0.7858949899673462,a photo of a bright blue berry bowl
+clean,no edit,0,can_00,0.9999999403953552,,
+clean,A,1,can_00,0.916488528251648,0.7162097096443176,a photo of a can on a sunny beach
+clean,B,1,can_00,0.8887935876846313,0.7993046939373016,a photo of a can on a sunny beach
+clean,A→A,2,can_00,0.9107261300086975,0.6941740959882736,a photo of a bright blue can
+clean,A→B,2,can_00,0.9117207527160645,0.6849265843629837,a photo of a bright blue can
+clean,B→A,2,can_00,0.8678100109100342,0.7307194173336029,a photo of a bright blue can
+clean,B→B,2,can_00,0.8786911964416504,0.7635357975959778,a photo of a bright blue can
+photoguard,no edit,0,can_00,0.9500864148139954,,
+photoguard,A,1,can_00,0.08336015045642853,0.6502867490053177,a photo of a can on a sunny beach
+photoguard,B,1,can_00,0.8891041278839111,0.7943625748157501,a photo of a can on a sunny beach
+photoguard,A→A,2,can_00,0.07460883259773254,0.584440752863884,a photo of a bright blue can
+photoguard,A→B,2,can_00,0.0835191160440445,0.5698199942708015,a photo of a bright blue can
+photoguard,B→A,2,can_00,0.8561723232269287,0.7179620116949081,a photo of a bright blue can
+photoguard,B→B,2,can_00,0.8768171072006226,0.7286077737808228,a photo of a bright blue can
+clean,no edit,0,can_01,1.0000001192092896,,
+clean,A,1,can_01,0.8914244174957275,0.7660651952028275,a photo of a can on a sunny beach
+clean,B,1,can_01,0.8930090069770813,0.7743135094642639,a photo of a can on a sunny beach
+clean,A→A,2,can_01,0.854441225528717,0.7441486418247223,a photo of a bright blue can
+clean,A→B,2,can_01,0.8916922807693481,0.718330591917038,a photo of a bright blue can
+clean,B→A,2,can_01,0.8770297765731812,0.7502196729183197,a photo of a bright blue can
+clean,B→B,2,can_01,0.8835834860801697,0.7143606245517731,a photo of a bright blue can
+photoguard,no edit,0,can_01,0.9617636799812317,,
+photoguard,A,1,can_01,0.09973864257335663,0.6845660507678986,a photo of a can on a sunny beach
+photoguard,B,1,can_01,0.8648694753646851,0.7607043534517288,a photo of a can on a sunny beach
+photoguard,A→A,2,can_01,0.10239246487617493,0.6003932654857635,a photo of a bright blue can
+photoguard,A→B,2,can_01,0.09341060370206833,0.5790691822767258,a photo of a bright blue can
+photoguard,B→A,2,can_01,0.833947479724884,0.7153381407260895,a photo of a bright blue can
+photoguard,B→B,2,can_01,0.8664441108703613,0.6607280671596527,a photo of a bright blue can
+clean,no edit,0,candle_00,0.9999999403953552,,
+clean,A,1,candle_00,0.6303918957710266,0.7643000781536102,a photo of a candle on a sunny beach
+clean,B,1,candle_00,0.6527692675590515,0.8095672726631165,a photo of a candle on a sunny beach
+clean,A→A,2,candle_00,0.7069065570831299,0.7211553305387497,a photo of a bright blue candle
+clean,A→B,2,candle_00,0.6027073264122009,0.7228501886129379,a photo of a bright blue candle
+clean,B→A,2,candle_00,0.5666375160217285,0.6545291095972061,a photo of a bright blue candle
+clean,B→B,2,candle_00,0.6080359220504761,0.6330463290214539,a photo of a bright blue candle
+photoguard,no edit,0,candle_00,0.8800899982452393,,
+photoguard,A,1,candle_00,0.30920764803886414,0.8125392347574234,a photo of a candle on a sunny beach
+photoguard,B,1,candle_00,0.6021271347999573,0.7997357845306396,a photo of a candle on a sunny beach
+photoguard,A→A,2,candle_00,0.3207460045814514,0.6953307241201401,a photo of a bright blue candle
+photoguard,A→B,2,candle_00,0.322142630815506,0.6710445135831833,a photo of a bright blue candle
+photoguard,B→A,2,candle_00,0.5960614085197449,0.6177664920687675,a photo of a bright blue candle
+photoguard,B→B,2,candle_00,0.49392378330230713,0.6134509667754173,a photo of a bright blue candle
+clean,no edit,0,candle_01,1.0,,
+clean,A,1,candle_01,0.861412525177002,0.7603184878826141,a photo of a candle on a sunny beach
+clean,B,1,candle_01,0.8609994649887085,0.7377365231513977,a photo of a candle on a sunny beach
+clean,A→A,2,candle_01,0.7868442535400391,0.6921231746673584,a photo of a bright blue candle
+clean,A→B,2,candle_01,0.6962146162986755,0.6169142201542854,a photo of a bright blue candle
+clean,B→A,2,candle_01,0.8040392398834229,0.5507402122020721,a photo of a bright blue candle
+clean,B→B,2,candle_01,0.6363252997398376,0.6164698302745819,a photo of a bright blue candle
+photoguard,no edit,0,candle_01,0.923650860786438,,
+photoguard,A,1,candle_01,0.053219668567180634,0.6839374452829361,a photo of a candle on a sunny beach
+photoguard,B,1,candle_01,0.41405004262924194,0.7411293685436249,a photo of a candle on a sunny beach
+photoguard,A→A,2,candle_01,0.03864481300115585,0.5698930472135544,a photo of a bright blue candle
+photoguard,A→B,2,candle_01,0.0590023472905159,0.5714483186602592,a photo of a bright blue candle
+photoguard,B→A,2,candle_01,0.3570215106010437,0.5709162354469299,a photo of a bright blue candle
+photoguard,B→B,2,candle_01,0.36164408922195435,0.6138201430439949,a photo of a bright blue candle
+clean,no edit,0,cat2_00,1.0,,
+clean,A,1,cat2_00,0.9140594601631165,0.7709857076406479,a photo of a cat on a sunny beach
+clean,B,1,cat2_00,0.9279974102973938,0.8470430225133896,a photo of a cat on a sunny beach
+clean,A→A,2,cat2_00,0.9053196907043457,0.8452067524194717,a photo of a bright blue cat
+clean,A→B,2,cat2_00,0.8596019744873047,0.895053893327713,a photo of a bright blue cat
+clean,B→A,2,cat2_00,0.87989342212677,0.8488329499959946,a photo of a bright blue cat
+clean,B→B,2,cat2_00,0.8430310487747192,0.8866530656814575,a photo of a bright blue cat
+photoguard,no edit,0,cat2_00,0.9744833707809448,,
+photoguard,A,1,cat2_00,0.3607253134250641,0.7946418225765228,a photo of a cat on a sunny beach
+photoguard,B,1,cat2_00,0.9069744348526001,0.839037150144577,a photo of a cat on a sunny beach
+photoguard,A→A,2,cat2_00,0.37277647852897644,0.7589048892259598,a photo of a bright blue cat
+photoguard,A→B,2,cat2_00,0.3390355706214905,0.7714938372373581,a photo of a bright blue cat
+photoguard,B→A,2,cat2_00,0.8576339483261108,0.8182862401008606,a photo of a bright blue cat
+photoguard,B→B,2,cat2_00,0.8377488851547241,0.8769384026527405,a photo of a bright blue cat
+clean,no edit,0,cat2_01,1.0,,
+clean,A,1,cat2_01,0.9406015872955322,0.6032153964042664,a photo of a cat on a sunny beach
+clean,B,1,cat2_01,0.949492335319519,0.8724118769168854,a photo of a cat on a sunny beach
+clean,A→A,2,cat2_01,0.9278817176818848,0.767623633146286,a photo of a bright blue cat
+clean,A→B,2,cat2_01,0.9068795442581177,0.8292100578546524,a photo of a bright blue cat
+clean,B→A,2,cat2_01,0.9160529971122742,0.7954128831624985,a photo of a bright blue cat
+clean,B→B,2,cat2_01,0.8631242513656616,0.8640459924936295,a photo of a bright blue cat
+photoguard,no edit,0,cat2_01,0.9760465621948242,,
+photoguard,A,1,cat2_01,0.6366273164749146,0.7013128697872162,a photo of a cat on a sunny beach
+photoguard,B,1,cat2_01,0.9138305187225342,0.8539146929979324,a photo of a cat on a sunny beach
+photoguard,A→A,2,cat2_01,0.6207746267318726,0.7380117475986481,a photo of a bright blue cat
+photoguard,A→B,2,cat2_01,0.6260693073272705,0.7652207463979721,a photo of a bright blue cat
+photoguard,B→A,2,cat2_01,0.8613982200622559,0.7850398123264313,a photo of a bright blue cat
+photoguard,B→B,2,cat2_01,0.8535885214805603,0.8425369113683701,a photo of a bright blue cat
+clean,no edit,0,cat_00,0.9999998807907104,,
+clean,A,1,cat_00,0.9125020503997803,0.7146166265010834,a photo of a cat on a sunny beach
+clean,B,1,cat_00,0.8303663730621338,0.8728203922510147,a photo of a cat on a sunny beach
+clean,A→A,2,cat_00,0.8370646238327026,0.7227156311273575,a photo of a bright blue cat
+clean,A→B,2,cat_00,0.7409995794296265,0.8337404578924179,a photo of a bright blue cat
+clean,B→A,2,cat_00,0.6452730894088745,0.7518083602190018,a photo of a bright blue cat
+clean,B→B,2,cat_00,0.6592048406600952,0.8549824357032776,a photo of a bright blue cat
+photoguard,no edit,0,cat_00,0.9356334209442139,,
+photoguard,A,1,cat_00,-0.028811275959014893,0.6604239344596863,a photo of a cat on a sunny beach
+photoguard,B,1,cat_00,0.7091985940933228,0.877055823802948,a photo of a cat on a sunny beach
+photoguard,A→A,2,cat_00,-0.04438072070479393,0.5615923181176186,a photo of a bright blue cat
+photoguard,A→B,2,cat_00,-0.0293066818267107,0.5518949031829834,a photo of a bright blue cat
+photoguard,B→A,2,cat_00,0.5351961255073547,0.7334249466657639,a photo of a bright blue cat
+photoguard,B→B,2,cat_00,0.5302618145942688,0.8356636017560959,a photo of a bright blue cat
+clean,no edit,0,cat_01,0.9999999403953552,,
+clean,A,1,cat_01,0.8894199132919312,0.6765185296535492,a photo of a cat on a sunny beach
+clean,B,1,cat_01,0.8053150773048401,0.8469227701425552,a photo of a cat on a sunny beach
+clean,A→A,2,cat_01,0.8424601554870605,0.7593010365962982,a photo of a bright blue cat
+clean,A→B,2,cat_01,0.7589963674545288,0.8801798522472382,a photo of a bright blue cat
+clean,B→A,2,cat_01,0.7145466804504395,0.795782282948494,a photo of a bright blue cat
+clean,B→B,2,cat_01,0.6857916116714478,0.88487908244133,a photo of a bright blue cat
+photoguard,no edit,0,cat_01,0.9293556213378906,,
+photoguard,A,1,cat_01,-0.04114081710577011,0.6711481511592865,a photo of a cat on a sunny beach
+photoguard,B,1,cat_01,0.8022725582122803,0.853368267416954,a photo of a cat on a sunny beach
+photoguard,A→A,2,cat_01,-0.038154441863298416,0.5771736800670624,a photo of a bright blue cat
+photoguard,A→B,2,cat_01,-0.040670573711395264,0.5775200203061104,a photo of a bright blue cat
+photoguard,B→A,2,cat_01,0.6714097261428833,0.7928222417831421,a photo of a bright blue cat
+photoguard,B→B,2,cat_01,0.7121574878692627,0.8808712661266327,a photo of a bright blue cat
+clean,no edit,0,clock_00,1.0000001192092896,,
+clean,A,1,clock_00,0.3839690685272217,0.7430604100227356,a photo of a clock on a sunny beach
+clean,B,1,clock_00,0.7134894132614136,0.7875354588031769,a photo of a clock on a sunny beach
+clean,A→A,2,clock_00,0.3456619679927826,0.6699535995721817,a photo of a bright blue clock
+clean,A→B,2,clock_00,0.31937891244888306,0.6630174070596695,a photo of a bright blue clock
+clean,B→A,2,clock_00,0.5393105745315552,0.6638143956661224,a photo of a bright blue clock
+clean,B→B,2,clock_00,0.685410737991333,0.7384225726127625,a photo of a bright blue clock
+photoguard,no edit,0,clock_00,0.9466475248336792,,
+photoguard,A,1,clock_00,0.06263498961925507,0.7221148163080215,a photo of a clock on a sunny beach
+photoguard,B,1,clock_00,0.6724033355712891,0.6530960649251938,a photo of a clock on a sunny beach
+photoguard,A→A,2,clock_00,0.049915000796318054,0.6149350851774216,a photo of a bright blue clock
+photoguard,A→B,2,clock_00,0.06169430911540985,0.6193939223885536,a photo of a bright blue clock
+photoguard,B→A,2,clock_00,0.6708618402481079,0.44894076883792877,a photo of a bright blue clock
+photoguard,B→B,2,clock_00,0.6559640765190125,0.6547457724809647,a photo of a bright blue clock
+clean,no edit,0,clock_01,0.9999999403953552,,
+clean,A,1,clock_01,0.9071992635726929,0.6935757398605347,a photo of a clock on a sunny beach
+clean,B,1,clock_01,0.6780780553817749,0.7288359105587006,a photo of a clock on a sunny beach
+clean,A→A,2,clock_01,0.8133365511894226,0.6370673328638077,a photo of a bright blue clock
+clean,A→B,2,clock_01,0.878160834312439,0.6153517588973045,a photo of a bright blue clock
+clean,B→A,2,clock_01,0.6460986733436584,0.5920739844441414,a photo of a bright blue clock
+clean,B→B,2,clock_01,0.5695870518684387,0.5923732742667198,a photo of a bright blue clock
+photoguard,no edit,0,clock_01,0.9712531566619873,,
+photoguard,A,1,clock_01,0.010545289143919945,0.6847751140594482,a photo of a clock on a sunny beach
+photoguard,B,1,clock_01,0.6887931823730469,0.6720007956027985,a photo of a clock on a sunny beach
+photoguard,A→A,2,clock_01,0.007968608289957047,0.5413937941193581,a photo of a bright blue clock
+photoguard,A→B,2,clock_01,0.010149437934160233,0.6208553537726402,a photo of a bright blue clock
+photoguard,B→A,2,clock_01,0.6553264856338501,0.5071301013231277,a photo of a bright blue clock
+photoguard,B→B,2,clock_01,0.6396759748458862,0.5985590815544128,a photo of a bright blue clock
+clean,no edit,0,colorful_sneaker_00,1.0,,
+clean,A,1,colorful_sneaker_00,0.625856876373291,0.9117584675550461,a photo of a colorful sneaker on a sunny beach
+clean,B,1,colorful_sneaker_00,0.6501436829566956,0.9108471125364304,a photo of a colorful sneaker on a sunny beach
+clean,A→A,2,colorful_sneaker_00,0.6464964151382446,0.7846543937921524,a photo of a bright blue colorful sneaker
+clean,A→B,2,colorful_sneaker_00,0.6147604584693909,0.8531681448221207,a photo of a bright blue colorful sneaker
+clean,B→A,2,colorful_sneaker_00,0.6423406600952148,0.8366801589727402,a photo of a bright blue colorful sneaker
+clean,B→B,2,colorful_sneaker_00,0.6616829037666321,0.8636453747749329,a photo of a bright blue colorful sneaker
+photoguard,no edit,0,colorful_sneaker_00,0.9689849615097046,,
+photoguard,A,1,colorful_sneaker_00,0.5108233094215393,0.8888544142246246,a photo of a colorful sneaker on a sunny beach
+photoguard,B,1,colorful_sneaker_00,0.6545530557632446,0.9340183436870575,a photo of a colorful sneaker on a sunny beach
+photoguard,A→A,2,colorful_sneaker_00,0.5497062802314758,0.769207775592804,a photo of a bright blue colorful sneaker
+photoguard,A→B,2,colorful_sneaker_00,0.5383259654045105,0.8533074706792831,a photo of a bright blue colorful sneaker
+photoguard,B→A,2,colorful_sneaker_00,0.6449735164642334,0.8308112621307373,a photo of a bright blue colorful sneaker
+photoguard,B→B,2,colorful_sneaker_00,0.6576505899429321,0.8808207511901855,a photo of a bright blue colorful sneaker
+clean,no edit,0,colorful_sneaker_01,1.0,,
+clean,A,1,colorful_sneaker_01,0.9868413209915161,0.7356832921504974,a photo of a colorful sneaker on a sunny beach
+clean,B,1,colorful_sneaker_01,0.7823055982589722,0.8968571573495865,a photo of a colorful sneaker on a sunny beach
+clean,A→A,2,colorful_sneaker_01,0.9655305743217468,0.8421505987644196,a photo of a bright blue colorful sneaker
+clean,A→B,2,colorful_sneaker_01,0.9351629614830017,0.8576850593090057,a photo of a bright blue colorful sneaker
+clean,B→A,2,colorful_sneaker_01,0.7760679721832275,0.868440642952919,a photo of a bright blue colorful sneaker
+clean,B→B,2,colorful_sneaker_01,0.760884702205658,0.8984586596488953,a photo of a bright blue colorful sneaker
+photoguard,no edit,0,colorful_sneaker_01,0.9754030704498291,,
+photoguard,A,1,colorful_sneaker_01,0.6541084051132202,0.913732722401619,a photo of a colorful sneaker on a sunny beach
+photoguard,B,1,colorful_sneaker_01,0.7505824565887451,0.8636009693145752,a photo of a colorful sneaker on a sunny beach
+photoguard,A→A,2,colorful_sneaker_01,0.6727615594863892,0.7417434453964233,a photo of a bright blue colorful sneaker
+photoguard,A→B,2,colorful_sneaker_01,0.6698616743087769,0.8822012692689896,a photo of a bright blue colorful sneaker
+photoguard,B→A,2,colorful_sneaker_01,0.730056881904602,0.8419506996870041,a photo of a bright blue colorful sneaker
+photoguard,B→B,2,colorful_sneaker_01,0.7233002185821533,0.8946604281663895,a photo of a bright blue colorful sneaker
+clean,no edit,0,dog2_00,0.9999998807907104,,
+clean,A,1,dog2_00,0.9785982370376587,0.6561993807554245,a photo of a dog on a sunny beach
+clean,B,1,dog2_00,0.9447327852249146,0.8032963424921036,a photo of a dog on a sunny beach
+clean,A→A,2,dog2_00,0.9625576734542847,0.7994773983955383,a photo of a bright blue dog
+clean,A→B,2,dog2_00,0.9122400283813477,0.8163148164749146,a photo of a bright blue dog
+clean,B→A,2,dog2_00,0.9164067506790161,0.7625824213027954,a photo of a bright blue dog
+clean,B→B,2,dog2_00,0.8490182757377625,0.8327466249465942,a photo of a bright blue dog
+photoguard,no edit,0,dog2_00,0.9749836325645447,,
+photoguard,A,1,dog2_00,0.05497768521308899,0.6777143478393555,a photo of a dog on a sunny beach
+photoguard,B,1,dog2_00,0.9089703559875488,0.7875600457191467,a photo of a dog on a sunny beach
+photoguard,A→A,2,dog2_00,0.05307600647211075,0.6293866038322449,a photo of a bright blue dog
+photoguard,A→B,2,dog2_00,0.051129162311553955,0.6158257648348808,a photo of a bright blue dog
+photoguard,B→A,2,dog2_00,0.8879128694534302,0.7392656058073044,a photo of a bright blue dog
+photoguard,B→B,2,dog2_00,0.7988675236701965,0.8187396824359894,a photo of a bright blue dog
+clean,no edit,0,dog3_00,0.9999999403953552,,
+clean,A,1,dog3_00,0.8556680679321289,0.7063433527946472,a photo of a dog on a sunny beach
+clean,B,1,dog3_00,0.8356561660766602,0.818568542599678,a photo of a dog on a sunny beach
+clean,A→A,2,dog3_00,0.7691221237182617,0.7931459695100784,a photo of a bright blue dog
+clean,A→B,2,dog3_00,0.7765682935714722,0.8686806261539459,a photo of a bright blue dog
+clean,B→A,2,dog3_00,0.793001115322113,0.6993519514799118,a photo of a bright blue dog
+clean,B→B,2,dog3_00,0.7294899821281433,0.8498912304639816,a photo of a bright blue dog
+photoguard,no edit,0,dog3_00,0.963169515132904,,
+photoguard,A,1,dog3_00,-0.04415338486433029,0.6297942250967026,a photo of a dog on a sunny beach
+photoguard,B,1,dog3_00,0.770034909248352,0.8094474673271179,a photo of a dog on a sunny beach
+photoguard,A→A,2,dog3_00,-0.03821118175983429,0.5681516602635384,a photo of a bright blue dog
+photoguard,A→B,2,dog3_00,-0.03869979828596115,0.5478594079613686,a photo of a bright blue dog
+photoguard,B→A,2,dog3_00,0.7526191473007202,0.7110942900180817,a photo of a bright blue dog
+photoguard,B→B,2,dog3_00,0.6671891808509827,0.8445444703102112,a photo of a bright blue dog
+clean,no edit,0,dog5_00,1.0,,
+clean,A,1,dog5_00,0.9603390693664551,0.5515696480870247,a photo of a dog on a sunny beach
+clean,B,1,dog5_00,0.9578192234039307,0.7187551259994507,a photo of a dog on a sunny beach
+clean,A→A,2,dog5_00,0.948932409286499,0.6767576187849045,a photo of a bright blue dog
+clean,A→B,2,dog5_00,0.8950682878494263,0.8027401566505432,a photo of a bright blue dog
+clean,B→A,2,dog5_00,0.9408953785896301,0.6359151750802994,a photo of a bright blue dog
+clean,B→B,2,dog5_00,0.8694506883621216,0.7783232629299164,a photo of a bright blue dog
+photoguard,no edit,0,dog5_00,0.9670159816741943,,
+photoguard,A,1,dog5_00,0.5609217882156372,0.6066764518618584,a photo of a dog on a sunny beach
+photoguard,B,1,dog5_00,0.908710777759552,0.7361982762813568,a photo of a dog on a sunny beach
+photoguard,A→A,2,dog5_00,0.3952934443950653,0.7436180114746094,a photo of a bright blue dog
+photoguard,A→B,2,dog5_00,0.40122294425964355,0.7448063045740128,a photo of a bright blue dog
+photoguard,B→A,2,dog5_00,0.8127453327178955,0.65897636115551,a photo of a bright blue dog
+photoguard,B→B,2,dog5_00,0.723504900932312,0.7574459165334702,a photo of a bright blue dog
+clean,no edit,0,dog6_00,0.9999999403953552,,
+clean,A,1,dog6_00,0.8926306962966919,0.7079906761646271,a photo of a dog on a sunny beach
+clean,B,1,dog6_00,0.9334732890129089,0.8095960319042206,a photo of a dog on a sunny beach
+clean,A→A,2,dog6_00,0.8453453779220581,0.7749025523662567,a photo of a bright blue dog
+clean,A→B,2,dog6_00,0.8917503952980042,0.7240840792655945,a photo of a bright blue dog
+clean,B→A,2,dog6_00,0.9025220274925232,0.7237181812524796,a photo of a bright blue dog
+clean,B→B,2,dog6_00,0.8717697262763977,0.8448570966720581,a photo of a bright blue dog
+photoguard,no edit,0,dog6_00,0.9751521944999695,,
+photoguard,A,1,dog6_00,0.021368708461523056,0.6405821442604065,a photo of a dog on a sunny beach
+photoguard,B,1,dog6_00,0.9055428504943848,0.8171162009239197,a photo of a dog on a sunny beach
+photoguard,A→A,2,dog6_00,0.021480431780219078,0.6060333922505379,a photo of a bright blue dog
+photoguard,A→B,2,dog6_00,0.015888549387454987,0.5807414650917053,a photo of a bright blue dog
+photoguard,B→A,2,dog6_00,0.9080073833465576,0.6595522165298462,a photo of a bright blue dog
+photoguard,B→B,2,dog6_00,0.8936468958854675,0.833374559879303,a photo of a bright blue dog
+clean,no edit,0,dog7_00,1.0000001192092896,,
+clean,A,1,dog7_00,0.9779054522514343,0.6592673063278198,a photo of a dog on a sunny beach
+clean,B,1,dog7_00,0.8656220436096191,0.8108633011579514,a photo of a dog on a sunny beach
+clean,A→A,2,dog7_00,0.8817261457443237,0.7894659042358398,a photo of a bright blue dog
+clean,A→B,2,dog7_00,0.8222545385360718,0.8813916146755219,a photo of a bright blue dog
+clean,B→A,2,dog7_00,0.646250307559967,0.808536633849144,a photo of a bright blue dog
+clean,B→B,2,dog7_00,0.6858600974082947,0.9010885655879974,a photo of a bright blue dog
+photoguard,no edit,0,dog7_00,0.9726999998092651,,
+photoguard,A,1,dog7_00,0.005987181793898344,0.6572844088077545,a photo of a dog on a sunny beach
+photoguard,B,1,dog7_00,0.7694517374038696,0.7865778356790543,a photo of a dog on a sunny beach
+photoguard,A→A,2,dog7_00,-0.006596278864890337,0.6002466008067131,a photo of a bright blue dog
+photoguard,A→B,2,dog7_00,0.003707404714077711,0.579620748758316,a photo of a bright blue dog
+photoguard,B→A,2,dog7_00,0.4952237606048584,0.8053206652402878,a photo of a bright blue dog
+photoguard,B→B,2,dog7_00,0.5832543969154358,0.8825434744358063,a photo of a bright blue dog
+clean,no edit,0,dog8_00,1.0,,
+clean,A,1,dog8_00,0.9151350259780884,0.6362156569957733,a photo of a dog on a sunny beach
+clean,B,1,dog8_00,0.9107297658920288,0.7987190783023834,a photo of a dog on a sunny beach
+clean,A→A,2,dog8_00,0.8440606594085693,0.8081185072660446,a photo of a bright blue dog
+clean,A→B,2,dog8_00,0.7827878594398499,0.8681387454271317,a photo of a bright blue dog
+clean,B→A,2,dog8_00,0.8342841863632202,0.7753424346446991,a photo of a bright blue dog
+clean,B→B,2,dog8_00,0.8089823126792908,0.8511921763420105,a photo of a bright blue dog
+photoguard,no edit,0,dog8_00,0.9376521706581116,,
+photoguard,A,1,dog8_00,0.39763662219047546,0.7356898486614227,a photo of a dog on a sunny beach
+photoguard,B,1,dog8_00,0.8510451316833496,0.7866402715444565,a photo of a dog on a sunny beach
+photoguard,A→A,2,dog8_00,0.2601902484893799,0.6965482980012894,a photo of a bright blue dog
+photoguard,A→B,2,dog8_00,0.2622581422328949,0.8127448707818985,a photo of a bright blue dog
+photoguard,B→A,2,dog8_00,0.7540631294250488,0.7796943187713623,a photo of a bright blue dog
+photoguard,B→B,2,dog8_00,0.7436921000480652,0.8511634171009064,a photo of a bright blue dog
+clean,no edit,0,dog_00,0.9999999403953552,,
+clean,A,1,dog_00,0.9828472137451172,0.6310716271400452,a photo of a dog on a sunny beach
+clean,B,1,dog_00,0.9447124004364014,0.7975825667381287,a photo of a dog on a sunny beach
+clean,A→A,2,dog_00,0.9707305431365967,0.7772544026374817,a photo of a bright blue dog
+clean,A→B,2,dog_00,0.97374027967453,0.777885764837265,a photo of a bright blue dog
+clean,B→A,2,dog_00,0.9195566177368164,0.7525184005498886,a photo of a bright blue dog
+clean,B→B,2,dog_00,0.9275391697883606,0.7228482514619827,a photo of a bright blue dog
+photoguard,no edit,0,dog_00,0.9571936726570129,,
+photoguard,A,1,dog_00,0.13525336980819702,0.6176792830228806,a photo of a dog on a sunny beach
+photoguard,B,1,dog_00,0.868065357208252,0.7798074185848236,a photo of a dog on a sunny beach
+photoguard,A→A,2,dog_00,0.11550945043563843,0.5855010822415352,a photo of a bright blue dog
+photoguard,A→B,2,dog_00,0.12516680359840393,0.7871672511100769,a photo of a bright blue dog
+photoguard,B→A,2,dog_00,0.8308578133583069,0.7358438521623611,a photo of a bright blue dog
+photoguard,B→B,2,dog_00,0.8461605310440063,0.7256826758384705,a photo of a bright blue dog
+clean,no edit,0,duck_toy_00,1.0,,
+clean,A,1,duck_toy_00,0.919460654258728,0.8324205875396729,a photo of a duck toy on a sunny beach
+clean,B,1,duck_toy_00,0.8220022320747375,0.8286578953266144,a photo of a duck toy on a sunny beach
+clean,A→A,2,duck_toy_00,0.908923864364624,0.8087080717086792,a photo of a bright blue duck toy
+clean,A→B,2,duck_toy_00,0.8915066123008728,0.8829555660486221,a photo of a bright blue duck toy
+clean,B→A,2,duck_toy_00,0.801544189453125,0.7450705021619797,a photo of a bright blue duck toy
+clean,B→B,2,duck_toy_00,0.7721836566925049,0.8566629886627197,a photo of a bright blue duck toy
+photoguard,no edit,0,duck_toy_00,0.9002497792243958,,
+photoguard,A,1,duck_toy_00,0.6956218481063843,0.8293400704860687,a photo of a duck toy on a sunny beach
+photoguard,B,1,duck_toy_00,0.7975553870201111,0.8442966639995575,a photo of a duck toy on a sunny beach
+photoguard,A→A,2,duck_toy_00,0.6851882338523865,0.7764068245887756,a photo of a bright blue duck toy
+photoguard,A→B,2,duck_toy_00,0.7528270483016968,0.8440206199884415,a photo of a bright blue duck toy
+photoguard,B→A,2,duck_toy_00,0.794278085231781,0.7534273713827133,a photo of a bright blue duck toy
+photoguard,B→B,2,duck_toy_00,0.7522841691970825,0.8653528988361359,a photo of a bright blue duck toy
+clean,no edit,0,fancy_boot_00,1.0000001192092896,,
+clean,A,1,fancy_boot_00,0.9444732666015625,0.7900013029575348,a photo of a fancy boot on a sunny beach
+clean,B,1,fancy_boot_00,0.7834545373916626,0.8195414394140244,a photo of a fancy boot on a sunny beach
+clean,A→A,2,fancy_boot_00,0.9404286742210388,0.8161719143390656,a photo of a bright blue fancy boot
+clean,A→B,2,fancy_boot_00,0.8669933676719666,0.8563484996557236,a photo of a bright blue fancy boot
+clean,B→A,2,fancy_boot_00,0.7337425947189331,0.7831010967493057,a photo of a bright blue fancy boot
+clean,B→B,2,fancy_boot_00,0.7378612756729126,0.8110284805297852,a photo of a bright blue fancy boot
+photoguard,no edit,0,fancy_boot_00,0.9756271243095398,,
+photoguard,A,1,fancy_boot_00,0.35579076409339905,0.7063230872154236,a photo of a fancy boot on a sunny beach
+photoguard,B,1,fancy_boot_00,0.720831036567688,0.8915892988443375,a photo of a fancy boot on a sunny beach
+photoguard,A→A,2,fancy_boot_00,0.3370036482810974,0.665043368935585,a photo of a bright blue fancy boot
+photoguard,A→B,2,fancy_boot_00,0.311495304107666,0.6806501746177673,a photo of a bright blue fancy boot
+photoguard,B→A,2,fancy_boot_00,0.7043346166610718,0.8004366606473923,a photo of a bright blue fancy boot
+photoguard,B→B,2,fancy_boot_00,0.683622419834137,0.8477569371461868,a photo of a bright blue fancy boot
+clean,no edit,0,grey_sloth_plushie_00,1.0,,
+clean,A,1,grey_sloth_plushie_00,0.8696951866149902,0.8762364089488983,a photo of a grey sloth plushie on a sunny beach
+clean,B,1,grey_sloth_plushie_00,0.6024727821350098,0.9207450598478317,a photo of a grey sloth plushie on a sunny beach
+clean,A→A,2,grey_sloth_plushie_00,0.8545726537704468,0.8694818615913391,a photo of a bright blue grey sloth plushie
+clean,A→B,2,grey_sloth_plushie_00,0.8304276466369629,0.8657308667898178,a photo of a bright blue grey sloth plushie
+clean,B→A,2,grey_sloth_plushie_00,0.535944938659668,0.8411615341901779,a photo of a bright blue grey sloth plushie
+clean,B→B,2,grey_sloth_plushie_00,0.55516117811203,0.8312954008579254,a photo of a bright blue grey sloth plushie
+photoguard,no edit,0,grey_sloth_plushie_00,0.9788587093353271,,
+photoguard,A,1,grey_sloth_plushie_00,0.5485638976097107,0.7574539631605148,a photo of a grey sloth plushie on a sunny beach
+photoguard,B,1,grey_sloth_plushie_00,0.5537862181663513,0.9180660545825958,a photo of a grey sloth plushie on a sunny beach
+photoguard,A→A,2,grey_sloth_plushie_00,0.6212345361709595,0.7679969072341919,a photo of a bright blue grey sloth plushie
+photoguard,A→B,2,grey_sloth_plushie_00,0.5433663129806519,0.7826704531908035,a photo of a bright blue grey sloth plushie
+photoguard,B→A,2,grey_sloth_plushie_00,0.4602892994880676,0.7964277267456055,a photo of a bright blue grey sloth plushie
+photoguard,B→B,2,grey_sloth_plushie_00,0.521341860294342,0.8134523779153824,a photo of a bright blue grey sloth plushie
+clean,no edit,0,monster_toy_00,0.9999998807907104,,
+clean,A,1,monster_toy_00,0.8786923289299011,0.7495326548814774,a photo of a monster toy on a sunny beach
+clean,B,1,monster_toy_00,0.892960786819458,0.7587846368551254,a photo of a monster toy on a sunny beach
+clean,A→A,2,monster_toy_00,0.9056656956672668,0.7004030793905258,a photo of a bright blue monster toy
+clean,A→B,2,monster_toy_00,0.838030219078064,0.8070477843284607,a photo of a bright blue monster toy
+clean,B→A,2,monster_toy_00,0.8761448860168457,0.6861322373151779,a photo of a bright blue monster toy
+clean,B→B,2,monster_toy_00,0.8402574062347412,0.7559837400913239,a photo of a bright blue monster toy
+photoguard,no edit,0,monster_toy_00,0.9527207612991333,,
+photoguard,A,1,monster_toy_00,0.5149588584899902,0.7471241801977158,a photo of a monster toy on a sunny beach
+photoguard,B,1,monster_toy_00,0.8432562947273254,0.7539916038513184,a photo of a monster toy on a sunny beach
+photoguard,A→A,2,monster_toy_00,0.4182697832584381,0.608631819486618,a photo of a bright blue monster toy
+photoguard,A→B,2,monster_toy_00,0.48927152156829834,0.7455978542566299,a photo of a bright blue monster toy
+photoguard,B→A,2,monster_toy_00,0.7490657567977905,0.6974215060472488,a photo of a bright blue monster toy
+photoguard,B→B,2,monster_toy_00,0.8140565156936646,0.7625202089548111,a photo of a bright blue monster toy
+clean,no edit,0,pink_sunglasses_00,1.0,,
+clean,A,1,pink_sunglasses_00,0.7197242379188538,0.8116468787193298,a photo of a pink sunglasses on a sunny beach
+clean,B,1,pink_sunglasses_00,0.8576697111129761,0.7978591322898865,a photo of a pink sunglasses on a sunny beach
+clean,A→A,2,pink_sunglasses_00,0.7336736917495728,0.7607634365558624,a photo of a bright blue pink sunglasses
+clean,A→B,2,pink_sunglasses_00,0.6987425684928894,0.7213632762432098,a photo of a bright blue pink sunglasses
+clean,B→A,2,pink_sunglasses_00,0.8360327482223511,0.7406085729598999,a photo of a bright blue pink sunglasses
+clean,B→B,2,pink_sunglasses_00,0.7872830033302307,0.7459437847137451,a photo of a bright blue pink sunglasses
+photoguard,no edit,0,pink_sunglasses_00,0.8936015367507935,,
+photoguard,A,1,pink_sunglasses_00,0.0654270350933075,0.6860633194446564,a photo of a pink sunglasses on a sunny beach
+photoguard,B,1,pink_sunglasses_00,0.7254529595375061,0.8054973930120468,a photo of a pink sunglasses on a sunny beach
+photoguard,A→A,2,pink_sunglasses_00,0.05335042625665665,0.6455781310796738,a photo of a bright blue pink sunglasses
+photoguard,A→B,2,pink_sunglasses_00,0.05736368149518967,0.6202901154756546,a photo of a bright blue pink sunglasses
+photoguard,B→A,2,pink_sunglasses_00,0.7471057176589966,0.7770626246929169,a photo of a bright blue pink sunglasses
+photoguard,B→B,2,pink_sunglasses_00,0.7324496507644653,0.7625371217727661,a photo of a bright blue pink sunglasses
+clean,no edit,0,poop_emoji_00,0.9999999403953552,,
+clean,A,1,poop_emoji_00,0.987539529800415,0.7816042006015778,a photo of a poop emoji on a sunny beach
+clean,B,1,poop_emoji_00,0.6689841151237488,0.898214727640152,a photo of a poop emoji on a sunny beach
+clean,A→A,2,poop_emoji_00,0.9292530417442322,0.8906833827495575,a photo of a bright blue poop emoji
+clean,A→B,2,poop_emoji_00,0.9330167770385742,0.8612385392189026,a photo of a bright blue poop emoji
+clean,B→A,2,poop_emoji_00,0.6373235583305359,0.79497329890728,a photo of a bright blue poop emoji
+clean,B→B,2,poop_emoji_00,0.64170902967453,0.8168191462755203,a photo of a bright blue poop emoji
+photoguard,no edit,0,poop_emoji_00,0.9546880722045898,,
+photoguard,A,1,poop_emoji_00,0.46733543276786804,0.7834348082542419,a photo of a poop emoji on a sunny beach
+photoguard,B,1,poop_emoji_00,0.7370744347572327,0.8802294731140137,a photo of a poop emoji on a sunny beach
+photoguard,A→A,2,poop_emoji_00,0.47488972544670105,0.7556264102458954,a photo of a bright blue poop emoji
+photoguard,A→B,2,poop_emoji_00,0.5126206874847412,0.8305198699235916,a photo of a bright blue poop emoji
+photoguard,B→A,2,poop_emoji_00,0.6934584975242615,0.8073999732732773,a photo of a bright blue poop emoji
+photoguard,B→B,2,poop_emoji_00,0.6596053838729858,0.8051031082868576,a photo of a bright blue poop emoji
+clean,no edit,0,rc_car_00,0.9999999403953552,,
+clean,A,1,rc_car_00,0.9820786714553833,0.7952059060335159,a photo of a rc car on a sunny beach
+clean,B,1,rc_car_00,0.8693968057632446,0.7167106121778488,a photo of a rc car on a sunny beach
+clean,A→A,2,rc_car_00,0.9667132496833801,0.7071102410554886,a photo of a bright blue rc car
+clean,A→B,2,rc_car_00,0.9578931927680969,0.8149036020040512,a photo of a bright blue rc car
+clean,B→A,2,rc_car_00,0.8630592823028564,0.7494201511144638,a photo of a bright blue rc car
+clean,B→B,2,rc_car_00,0.8562116026878357,0.7184300571680069,a photo of a bright blue rc car
+photoguard,no edit,0,rc_car_00,0.9646060466766357,,
+photoguard,A,1,rc_car_00,0.7340837121009827,0.7290565967559814,a photo of a rc car on a sunny beach
+photoguard,B,1,rc_car_00,0.8838045597076416,0.7321519404649734,a photo of a rc car on a sunny beach
+photoguard,A→A,2,rc_car_00,0.6739328503608704,0.6494980305433273,a photo of a bright blue rc car
+photoguard,A→B,2,rc_car_00,0.6232467889785767,0.7995001971721649,a photo of a bright blue rc car
+photoguard,B→A,2,rc_car_00,0.855156421661377,0.759519636631012,a photo of a bright blue rc car
+photoguard,B→B,2,rc_car_00,0.8631237149238586,0.7587648928165436,a photo of a bright blue rc car
+clean,no edit,0,red_cartoon_00,1.000000238418579,,
+clean,A,1,red_cartoon_00,0.5167176723480225,0.8241709321737289,a photo of a red cartoon on a sunny beach
+clean,B,1,red_cartoon_00,0.6252045035362244,0.8295158296823502,a photo of a red cartoon on a sunny beach
+clean,A→A,2,red_cartoon_00,0.4870951473712921,0.7183404266834259,a photo of a bright blue red cartoon
+clean,A→B,2,red_cartoon_00,0.4075900912284851,0.7094497233629227,a photo of a bright blue red cartoon
+clean,B→A,2,red_cartoon_00,0.5855538249015808,0.6853014230728149,a photo of a bright blue red cartoon
+clean,B→B,2,red_cartoon_00,0.49549269676208496,0.685138925909996,a photo of a bright blue red cartoon
+photoguard,no edit,0,red_cartoon_00,0.9002302885055542,,
+photoguard,A,1,red_cartoon_00,0.665879487991333,0.686006098985672,a photo of a red cartoon on a sunny beach
+photoguard,B,1,red_cartoon_00,0.6410287022590637,0.828419104218483,a photo of a red cartoon on a sunny beach
+photoguard,A→A,2,red_cartoon_00,0.625241219997406,0.6992863118648529,a photo of a bright blue red cartoon
+photoguard,A→B,2,red_cartoon_00,0.613788366317749,0.7049676030874252,a photo of a bright blue red cartoon
+photoguard,B→A,2,red_cartoon_00,0.6229953765869141,0.6975148618221283,a photo of a bright blue red cartoon
+photoguard,B→B,2,red_cartoon_00,0.555472195148468,0.6979299336671829,a photo of a bright blue red cartoon
+clean,no edit,0,robot_toy_00,0.9999999403953552,,
+clean,A,1,robot_toy_00,0.9898099303245544,0.7129310816526413,a photo of a robot toy on a sunny beach
+clean,B,1,robot_toy_00,0.8998050093650818,0.8704570680856705,a photo of a robot toy on a sunny beach
+clean,A→A,2,robot_toy_00,0.9704954028129578,0.8642625063657761,a photo of a bright blue robot toy
+clean,A→B,2,robot_toy_00,0.9545081853866577,0.9234288334846497,a photo of a bright blue robot toy
+clean,B→A,2,robot_toy_00,0.8936469554901123,0.7663072645664215,a photo of a bright blue robot toy
+clean,B→B,2,robot_toy_00,0.8827900886535645,0.8534904569387436,a photo of a bright blue robot toy
+photoguard,no edit,0,robot_toy_00,0.969404935836792,,
+photoguard,A,1,robot_toy_00,0.4472922682762146,0.7967738062143326,a photo of a robot toy on a sunny beach
+photoguard,B,1,robot_toy_00,0.876081109046936,0.8854364603757858,a photo of a robot toy on a sunny beach
+photoguard,A→A,2,robot_toy_00,0.4526767134666443,0.6530185788869858,a photo of a bright blue robot toy
+photoguard,A→B,2,robot_toy_00,0.4313967227935791,0.6804773956537247,a photo of a bright blue robot toy
+photoguard,B→A,2,robot_toy_00,0.8790100812911987,0.7661376893520355,a photo of a bright blue robot toy
+photoguard,B→B,2,robot_toy_00,0.8651483058929443,0.8277346938848495,a photo of a bright blue robot toy
+clean,no edit,0,shiny_sneaker_00,1.0,,
+clean,A,1,shiny_sneaker_00,0.7440457344055176,0.757112056016922,a photo of a shiny sneaker on a sunny beach
+clean,B,1,shiny_sneaker_00,0.6948075294494629,0.8409901708364487,a photo of a shiny sneaker on a sunny beach
+clean,A→A,2,shiny_sneaker_00,0.7562363147735596,0.7700133323669434,a photo of a bright blue shiny sneaker
+clean,A→B,2,shiny_sneaker_00,0.6911268830299377,0.7580205798149109,a photo of a bright blue shiny sneaker
+clean,B→A,2,shiny_sneaker_00,0.6494470834732056,0.760687068104744,a photo of a bright blue shiny sneaker
+clean,B→B,2,shiny_sneaker_00,0.6113904118537903,0.7450337707996368,a photo of a bright blue shiny sneaker
+photoguard,no edit,0,shiny_sneaker_00,0.9761826992034912,,
+photoguard,A,1,shiny_sneaker_00,0.4327284097671509,0.7831749320030212,a photo of a shiny sneaker on a sunny beach
+photoguard,B,1,shiny_sneaker_00,0.6714860796928406,0.87459996342659,a photo of a shiny sneaker on a sunny beach
+photoguard,A→A,2,shiny_sneaker_00,0.3911048173904419,0.7425619661808014,a photo of a bright blue shiny sneaker
+photoguard,A→B,2,shiny_sneaker_00,0.20146523416042328,0.7307636737823486,a photo of a bright blue shiny sneaker
+photoguard,B→A,2,shiny_sneaker_00,0.6109350919723511,0.7449440658092499,a photo of a bright blue shiny sneaker
+photoguard,B→B,2,shiny_sneaker_00,0.5898740291595459,0.7577256113290787,a photo of a bright blue shiny sneaker
+clean,no edit,0,teapot_00,1.0000001192092896,,
+clean,A,1,teapot_00,0.8943023085594177,0.7448782026767731,a photo of a teapot on a sunny beach
+clean,B,1,teapot_00,0.9351764917373657,0.9438993781805038,a photo of a teapot on a sunny beach
+clean,A→A,2,teapot_00,0.8378377556800842,0.8546543121337891,a photo of a bright blue teapot
+clean,A→B,2,teapot_00,0.871543288230896,0.8542866259813309,a photo of a bright blue teapot
+clean,B→A,2,teapot_00,0.8897950053215027,0.8851402252912521,a photo of a bright blue teapot
+clean,B→B,2,teapot_00,0.8819147944450378,0.9040901064872742,a photo of a bright blue teapot
+photoguard,no edit,0,teapot_00,0.947205662727356,,
+photoguard,A,1,teapot_00,-0.051367729902267456,0.6983187794685364,a photo of a teapot on a sunny beach
+photoguard,B,1,teapot_00,0.867363691329956,0.9402552247047424,a photo of a teapot on a sunny beach
+photoguard,A→A,2,teapot_00,-0.05204794183373451,0.6006155535578728,a photo of a bright blue teapot
+photoguard,A→B,2,teapot_00,-0.05546259507536888,0.5859888345003128,a photo of a bright blue teapot
+photoguard,B→A,2,teapot_00,0.7947382926940918,0.9141084551811218,a photo of a bright blue teapot
+photoguard,B→B,2,teapot_00,0.7497979998588562,0.9315254539251328,a photo of a bright blue teapot
+clean,no edit,0,vase_00,0.9999998807907104,,
+clean,A,1,vase_00,0.7699847221374512,0.6956802308559418,a photo of a vase on a sunny beach
+clean,B,1,vase_00,0.7554229497909546,0.8391927182674408,a photo of a vase on a sunny beach
+clean,A→A,2,vase_00,0.7407039403915405,0.7924293726682663,a photo of a bright blue vase
+clean,A→B,2,vase_00,0.7610888481140137,0.7885226607322693,a photo of a bright blue vase
+clean,B→A,2,vase_00,0.693748950958252,0.7890261709690094,a photo of a bright blue vase
+clean,B→B,2,vase_00,0.7231223583221436,0.7679875195026398,a photo of a bright blue vase
+photoguard,no edit,0,vase_00,0.9000700116157532,,
+photoguard,A,1,vase_00,0.06127545237541199,0.6743263453245163,a photo of a vase on a sunny beach
+photoguard,B,1,vase_00,0.6822526454925537,0.8575960993766785,a photo of a vase on a sunny beach
+photoguard,A→A,2,vase_00,0.05005235597491264,0.5802130326628685,a photo of a bright blue vase
+photoguard,A→B,2,vase_00,0.053776927292346954,0.5729581043124199,a photo of a bright blue vase
+photoguard,B→A,2,vase_00,0.672778844833374,0.8059778809547424,a photo of a bright blue vase
+photoguard,B→B,2,vase_00,0.658022940158844,0.7833563536405563,a photo of a bright blue vase
+clean,no edit,0,wolf_plushie_00,1.0,,
+clean,A,1,wolf_plushie_00,0.8126507997512817,0.8994484692811966,a photo of a wolf plushie on a sunny beach
+clean,B,1,wolf_plushie_00,0.7875683903694153,1.0089568793773651,a photo of a wolf plushie on a sunny beach
+clean,A→A,2,wolf_plushie_00,0.8040672540664673,0.8035686612129211,a photo of a bright blue wolf plushie
+clean,A→B,2,wolf_plushie_00,0.7593775987625122,0.8374252915382385,a photo of a bright blue wolf plushie
+clean,B→A,2,wolf_plushie_00,0.7457578182220459,0.8660402894020081,a photo of a bright blue wolf plushie
+clean,B→B,2,wolf_plushie_00,0.7229299545288086,0.8644212037324905,a photo of a bright blue wolf plushie
+photoguard,no edit,0,wolf_plushie_00,0.9819729924201965,,
+photoguard,A,1,wolf_plushie_00,0.704839825630188,0.8803226053714752,a photo of a wolf plushie on a sunny beach
+photoguard,B,1,wolf_plushie_00,0.7714599967002869,0.9760383516550064,a photo of a wolf plushie on a sunny beach
+photoguard,A→A,2,wolf_plushie_00,0.7190330624580383,0.7403469830751419,a photo of a bright blue wolf plushie
+photoguard,A→B,2,wolf_plushie_00,0.7023392915725708,0.8410458266735077,a photo of a bright blue wolf plushie
+photoguard,B→A,2,wolf_plushie_00,0.7323673367500305,0.8189626783132553,a photo of a bright blue wolf plushie
+photoguard,B→B,2,wolf_plushie_00,0.7127825021743774,0.849182978272438,a photo of a bright blue wolf plushie

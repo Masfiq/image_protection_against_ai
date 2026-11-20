@@ -1,0 +1,15 @@
+{
+  "editor_A": "instruct_pix2pix",
+  "editor_B": "flux_kontext",
+  "editor_models": {
+    "instruct_pix2pix": "timbrooks/instruct-pix2pix",
+    "sdxl_instruct_pix2pix": "diffusers/sdxl-instructpix2pix-768",
+    "flux_kontext": "black-forest-labs/FLUX.1-Kontext-dev"
+  },
+  "edit_1_instruction": "change the background to a sunny beach",
+  "edit_2_instruction": "change the color of the main object to bright blue",
+  "seeds": [
+    42
+  ],
+  "num_workers": 2
+}
